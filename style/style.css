@@ -23,6 +23,8 @@ body {
     color: var(--color-Footer);
 }
 header {
+    z-index: 1000;
+    position: fixed;
     width: 100%;
     height: auto;
 }
@@ -122,12 +124,13 @@ img {
 .mid-container:hover .img2 {
     display: block;
 }
-
+.icon-padding {
+    padding: 5px;
+}
 li a {
     color: var(--color-white-bg);
     padding: 5px;
 }
-
 ul li a:hover {
     text-decoration: underline;
 }
@@ -141,7 +144,6 @@ footer {
 .d-flex {
     display: flex;
 }
-
 .flex-wrap {
     flex-wrap: wrap;
 }
@@ -151,5 +153,7 @@ footer {
 }
 
 .justify-content {
+    text-align: left;
     justify-content: space-around;
 }
+
