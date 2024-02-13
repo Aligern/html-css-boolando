@@ -107,13 +107,23 @@ img {
 .text-red {
     color: red;
 }
-
+.font-weight {
+    font-weight: 600;
+}
 .heart:hover {
     color: red;
 }
+.img2 {
+    display: none;
+}
+.mid-container:hover .img1{
+    display: none;
+}
+.mid-container:hover .img2 {
+    display: block;
+}
 
 li a {
-    font-weight: 600;
     color: var(--color-white-bg);
     padding: 5px;
 }
