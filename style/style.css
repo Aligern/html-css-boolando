@@ -15,7 +15,6 @@ ul {
 a {
     text-decoration: none;
 }
-
 /* General */
 body {
     font-family: 'Noto sans', sans-serif;
@@ -30,18 +29,20 @@ header {
 }
 nav{
     padding: 10px;
-    margin: auto;
+    margin: 0 auto;
     max-width: 1400px;
 }
 img {
     display: block;
     max-width: 100%;
 }
+main {
+
+}
 .margin {
-    margin: 0 auto;
+    margin: auto;
 }
 .container {
-    margin-top: 20px auto;
     padding: 20px 30px;
     max-width: 1200px;
     height: auto;
@@ -49,7 +50,7 @@ img {
 }
 .mid-container {
     width: 30%;
-    height: auto;
+    margin: 100px auto;
 }
 .small-container {
     width: 200px;
@@ -94,6 +95,7 @@ img {
 .fixed-orange {
     align-items: center;
     width: 100%;
+    height: auto;
     background-color: var(--color-orange);
     box-shadow: 0px 3px 3px rgba(0,0,0,0.5);
 }
@@ -139,7 +141,6 @@ footer {
     background-color: var(--color-Footer);
     color: var(--color-white-bg);
 }
-
 /* flex-utilities */
 .d-flex {
     display: flex;
@@ -151,7 +152,6 @@ footer {
 .content {
     justify-content: space-between;
 }
-
 .justify-content {
     text-align: left;
     justify-content: space-around;
