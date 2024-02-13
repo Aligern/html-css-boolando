@@ -136,6 +136,7 @@ ul li a:hover {
 footer {
     background-color: var(--color-Footer);
     color: var(--color-white-bg);
+    padding: 30px;
 }
 /* flex-utilities */
 .d-flex {
@@ -144,7 +145,6 @@ footer {
 .flex-wrap {
     flex-wrap: wrap;
 }
-
 .content {
     justify-content: space-between;
 }
