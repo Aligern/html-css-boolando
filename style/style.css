@@ -18,6 +18,7 @@ a {
 
 /* General */
 body {
+    font-family: 'Noto sans', sans-serif;
     background-color: var(--color-white-bg);
     color: var(--color-Footer);
 }
